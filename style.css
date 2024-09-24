@@ -1,0 +1,52 @@
+h1 {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 30px;
+  color: #dda15e;
+}
+body {
+  background: #283618;
+  color: #606c38;
+  font-size: 18px;
+  font-family: "Chakra Petch", sans-serif;
+}
+
+section {
+  background: #fefae0;
+  width: 400px;
+  height: auto;
+  text-align: center;
+  border-radius: 10px;
+  padding: 15px;
+  margin: auto;
+  margin-top: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.498);
+}
+
+div#dados {
+  text-align: center;
+  padding: 10px;
+}
+
+input[type="button"] {
+  background-color: #606c38; 
+  color: #fefae0; 
+  margin-top: 8px;
+  border: none; 
+  border-radius: 10px; 
+  padding: 5px 15px; 
+  font-size: 15px; 
+  font-family: "Chakra Petch", sans-serif;
+  cursor: pointer; 
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease;
+}
+
+input[type="button"]:hover {
+  background-color: #283618; 
+}
+
+footer {
+  text-align: center;
+  color: #dda15e;
+}
